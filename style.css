@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, rgb(56, 56, 189), lightblue);
+}
+
+#title {
+    font-size: x-large;
+    font-family: poppins ;
+}
+
+#a1 {
+    color: white;
+}
+
+#a2 {
+    color: yellow;
+}
+
+#workarea {
+    padding: 20px;
+    background-color: rgba(208, 205, 219, 0.149);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#inputarea {
+    background-color: #fff;
+    height: 40px;
+    width: 250px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#input {
+    border: none;
+    width: 230px;
+}
+
+#calculate {
+    background-color: yellow;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#result {
+    margin-top: 30px;
+    color: #fff;
+    margin-left: 10px;
+    font-family: poppins;
+}
